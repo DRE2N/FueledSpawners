@@ -1,0 +1,12 @@
+name: FueledSpawners
+main: de.erethon.fueledspawners.FueledSpawners
+version: ${project.version}${buildNo}
+api-version: 1.13
+author: Daniel Saukel
+description: ${project.description}
+website: ${project.url}
+softdepend: [LWC]
+commands:
+  fueledspawners:
+    description: Reference command for FueledSpawners.
+    aliases: [fs,spawners,spawner]
